@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Explore Web</title>
+
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="This is my first project." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.svg" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <style>
+    td {
+      background-color: transparent !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid ">
+    <nav class="navbar navbar-expand-md border-bottom  ">
+      <span class="navbar-brand fw-semibold fs-4">Complex UI</span>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#sections">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="sections">
+        <!-- <span>My Section</span> -->
+        <ul class="navbar-nav gap-2 ms-1 ">
+          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis  fw-medium">Section 1</a></li>
+          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis  fw-medium">Section 2</a></li>
+          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis  fw-medium">Section 3</a></li>
+        </ul>
+        <form class="d-flex ms-auto " role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </nav>
+  </div>
+
+  <div id="my-slider" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          class="d-block w-100"
+          alt="https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1200">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>First Slide Title</h4>
+          <p class="h5">First slide description</p>
+          <a href="#" class="btn btn-primary mt-3">Call to Action</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          class="d-block w-100"
+          alt="https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1200">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Second Slide Title</h4>
+          <p class="h5">Second slide description</p>
+          <a href="#" class="btn btn-primary mt-3">Call to Action</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/1322185/pexels-photo-1322185.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          class="d-block w-100"
+          alt="https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1200">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Third Slide Title</h4>
+          <p class="h5">Third slide description</p>
+          <a href="#" class="btn btn-primary mt-3">Call to Action</a>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="carousel-control-prev" data-bs-target="#my-slider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon shadow-lg border border-secondary" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button type="button" class="carousel-control-next" data-bs-target="#my-slider" data-bs-slide="next">
+      <span class="carousel-control-next-icon shadow-lg border border-secondary" aria-hidden="true"></span>
+      <span class="visually-hidden ">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="mt-4">
+      <div class="row d-flex flex-row justify-content-center align-items-center flex-sm-wrap row-gap-3  ">
+        <div class="col mx-1 m-auto d-flex flex-column align-items-center">
+          <span
+            class="display-2 d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="width: 300px; height: 200px;">300x200</span>
+          <p class="text-center my-1">Short description</p>
+        </div>
+        <div class="col mx-1 m-auto d-flex flex-column align-items-center">
+          <span
+            class="display-2 d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="width: 300px; height: 200px;">300x200</span>
+          <p class="text-center my-1">Short description</p>
+        </div>
+        <div class="col mx-1 m-auto d-flex flex-column align-items-center">
+          <span
+            class="display-2 d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="width: 300px; height: 200px;">300x200</span>
+          <p class="text-center my-1">Short description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="custom-grid m-4 ">
+    <div class="row">
+      <div
+        class="col-4 h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+        style="min-height: 200px;">
+        300x200
+      </div>
+      <div class="col-8  ">
+        <div class="row gap-1 ps-1  ">
+          <div
+            class="col-3 h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary  bg-secondary rounded-2"
+            style="min-height: 200px;">
+            300x200
+          </div>
+          <div
+            class="col-3 h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="min-height: 200px;">
+            300x200
+          </div>
+          <div
+            class="col h4 overflow-hidden  d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="min-height: 200px;">
+            300x200
+          </div>
+        </div>
+        <div class="row gap-1 ps-1 ">
+          <div
+            class="col-3 h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="min-height: 200px;">
+            300x200
+          </div>
+          <div
+            class="col-3 h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="min-height: 200px;">
+            300x200
+          </div>
+          <div
+            class="col h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+            style="min-height: 200px;">
+            300x200
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div
+        class="col-4 h4  overflow-hidden  d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+        style="min-height: 200px;">
+        300x200
+      </div>
+      <div
+        class="col ms-1 h4  overflow-hidden d-flex justify-content-center align-items-center border  border-secondary bg-secondary rounded-2"
+        style="min-height: 200px;">
+        300x200
+      </div>
+    </div>
+  </div>
+  <div class="my-cards row row-cols-auto m-auto justify-content-center m-4 gap-2">
+    <div class="col card p-0 " style="width: 18rem;">
+      <div class="card-img-top h4 d-flex justify-content-center align-items-center bg-secondary "
+        style="min-height: 200px;">
+        300x200
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Card description</p>
+        <a href="#" class="btn btn-primary">Call to Action</a>
+      </div>
+    </div>
+    <div class="col card p-0" style="width: 18rem;">
+      <div class="card-img-top h4 d-flex justify-content-center align-items-center bg-secondary "
+        style="min-height: 200px;">
+        300x200
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Card description</p>
+        <a href="#" class="btn btn-primary">Call to Action</a>
+      </div>
+    </div>
+    <div class="col card p-0 " style="width: 18rem;">
+      <div class="card-img-top h4 d-flex justify-content-center align-items-center bg-secondary "
+        style="min-height: 200px;">
+        300x200
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Card description</p>
+        <a href="#" class="btn btn-primary">Call to Action</a>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-light pt-4 mt-4 pb-4">
+    <div class="row mx-1 ">
+      <div class="col">
+        <h3 class="fw-semibold">Useful Links</h3>
+        <a href="#" class="btn btn-link">Linke 1</a>
+        <br>
+        <a href="#" class="btn btn-link">Linke 2</a>
+        <br>
+        <a href="#" class="btn btn-link">Linke 3</a>
+      </div>
+      <div class="col">
+        <h3 class="fw-semibold">More Links</h3>
+        <a href="#" class="btn btn-link">Linke 4</a>
+        <br>
+        <a href="#" class="btn btn-link">Linke 5</a>
+        <br>
+        <a href="#" class="btn btn-link">Linke 6</a>
+      </div>
+      <div class="col my-3">
+        <h3 class="fw-semibold">Contact Us</h3>
+        <p>Email: example@example.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+      </div>
+    </div>
+    <div class="row justify-content-between px-1 mt-4 mx-1">
+      <div class="col">
+        <p>&#169; 2024 Complex UI. All Rights Reserved.</p>
+      </div>
+      <div class="col-auto">
+        <a href="#" class="btn btn-primary m-0">Back to Top</a>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
